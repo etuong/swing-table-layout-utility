@@ -1,0 +1,146 @@
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 6px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+table button {
+    cursor: pointer;
+}
+
+body {
+    padding: 20px;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+	border:1px solid black;
+	position:relative;
+}
+
+thead tr {
+    height: 60px;
+    background: rgb(86, 148, 206);
+    font-size: 16px;
+}
+
+tr:nth-child(1) {
+    height: 60px;
+    background: #d8d8d8 !important;
+    border-color: rgb(9, 73, 102);
+}
+
+tr {
+    height: 48px;
+    border-bottom: 1px solid #C8D8C7;
+}
+
+tr:nth-child(even) {
+    background: #F1F1F1;
+}
+
+tr:nth-child(odd) {
+    background: #FEFEFE;
+}
+
+.button-panel {
+    margin: 30px auto;
+    background-color: rgb(207, 207, 207);
+    border-radius: 6px;
+    padding: 10px;
+    width: 60%;
+}
+
+.textarea-panel {
+    margin: 0 auto;
+    width: 75%;
+}
+
+textarea {
+	min-height:300px;
+	font-size:13px;
+}
+
+.header {
+    text-align: center;
+    width: 50%;
+    margin-bottom: 20px !important;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(3, 51, 73);
+}
+
+.form-control {
+	margin:0 auto;
+	width:80%;
+	left:0%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#mergeText {
+	float:right;
+	color:red;
+    padding: 2px 15px;
+	font-size: 20px;
+	margin:auto;
+	vertical-align: middle;
+    font-weight: 500;
+}
+
+.selectedElement {
+    background-color: #85c3ce;
+}
+
+.mergingBackground {
+    background-color: lightgray!important;
+}
+
+.btn-md {
+    padding: 8px 14px;
+    font-size: 15px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-row {
+    color: #fff;
+    background-color: #01ACAC;
+    border-color: #01ACAC;
+}
+
+.btn-row:hover {
+    background-color: #027c7c;
+    border-color: #027c7c;
+}
