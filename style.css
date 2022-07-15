@@ -20,8 +20,8 @@ body {
 td {
     padding: 8px;
     text-align: center;
-	border:1px solid black;
-	position:relative;
+    border: 1px solid black;
+    position: relative;
 }
 
 thead tr {
@@ -63,8 +63,8 @@ tr:nth-child(odd) {
 }
 
 textarea {
-	min-height:300px;
-	font-size:13px;
+    min-height: 300px;
+    font-size: 13px;
 }
 
 .header {
@@ -79,9 +79,9 @@ textarea {
 }
 
 .form-control {
-	margin:0 auto;
-	width:80%;
-	left:0%;
+    margin: 0 auto;
+    width: 80%;
+    left: 0%;
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
@@ -105,12 +105,12 @@ textarea {
 }
 
 #mergeText {
-	float:right;
-	color:red;
+    float: right;
+    color: red;
     padding: 2px 15px;
-	font-size: 20px;
-	margin:auto;
-	vertical-align: middle;
+    font-size: 20px;
+    margin: auto;
+    vertical-align: middle;
     font-weight: 500;
 }
 
@@ -119,7 +119,7 @@ textarea {
 }
 
 .mergingBackground {
-    background-color: lightgray!important;
+    background-color: lightgray !important;
 }
 
 .btn-md {

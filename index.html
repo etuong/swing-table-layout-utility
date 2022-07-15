@@ -1,36 +1,36 @@
 <html>
 
 <head>
-    <title>Table Assignment</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+	<title>Table Assignment</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body onload="onLoadMethod()">
-    <div class="header">Table Layout Helper</div>
+	<div class="header">Table Layout Utility</div>
 
-    <table id="tableData"></table>
-	
+	<table id="tableData"></table>
+
 	<div class="button-panel">
 		<button class="btn btn-success" onclick="onSave()">Save</button>
-		<button class="btn btn-warning" onclick="document.getElementById('file-input').click();">Load</button>		
+		<button class="btn btn-warning" onclick="document.getElementById('file-input').click();">Load</button>
 		<button class="btn btn-info" onclick="onOutput()">Output</button>
 		<button class="btn btn-danger" onclick="onMerge()">Merge</button>
 		<button class="btn btn-primary" onclick="onCancel()" id="cancelButton" disabled>Cancel</button>
-		<button class="btn btn-dark" onclick="onAdd()" id="addRowColumn" ></button>
-		<button class="btn btn-secondary" onclick="onDelete()" id="deleteRowColumn" ></button>	
-		<p id="mergeText"></p>		
+		<button class="btn btn-dark" onclick="onAdd()" id="addRowColumn"></button>
+		<button class="btn btn-secondary" onclick="onDelete()" id="deleteRowColumn"></button>
+		<p id="mergeText"></p>
 	</div>
-		
+
 	<div class="textarea-panel">
 		<textarea id="output" style="min-width:100%;"></textarea>
 	</div>
-	
+
 	<input id="file-input" type="file" name="name" onChange="onLoad()" />
-	
+
 	<script src="FileSaver.js"></script>
-    <script src="script.js"></script>
-	
+	<script src="script.js"></script>
+
 </body>
 
 </html>
