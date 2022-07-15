@@ -1,5 +1,7 @@
 # Swing Table Layout Utility
 
+Check out the [demo](https://etuong.github.io/swing-table-layout-utility/)
+
 ![alt text](screenshot.png)
 
 Oracle has a layout manager called TableLayout which is an alternative for GridBagLayout for Java Swing. Essentially, to create a layout in Swing, you need to initialize the panel with appropriate and respective dimensions. This can be a major hassle especially if the layout is complex or tedious.
